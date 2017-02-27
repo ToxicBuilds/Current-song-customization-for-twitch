@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv='refresh' content='10' >
+<style>@import url('https://fonts.googleapis.com/css?family=Oswald');</style>
+<style type='text/css'>
+p{
+margin-top:0;
+margin-left:0;
+color: #fff;
+position: absolute;
+background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #91a9cb)); background-image: -webkit-linear-gradient(#ffffff,#91a9cb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div:after {
+-webkit-text-fill-color: transparent;
+background: none;
+content: attr(data-text);
+margin-left: 0;
+top: 0;
+position: relative;
+text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
+z-index: -1;
+height: auto;
+width: auto;
+}
+
+#divbox {
+font-size: 36px;
+font-family: 'Oswald', sans-serif;
+}
+</style>
+</head>
+<body>
+<div data-text="Current Song" id="divbox">
+<p>Current Song</p>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
